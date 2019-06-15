@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sepatu</string>
+
+    <string-array name="pembayaran">
+        <item>Transfer Rekening</item>
+        <item>Tunai</item>
+    </string-array>
+</resources>

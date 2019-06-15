@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/tr_c" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="180dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Merawat sepatu berbahan canvas"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#000000"
+                    android:textAlignment="gravity"
+                    android:text="1.Tunggu kering kotoran yang menempel pada sepatu kanvas
+Jika sepatu kanvas kamu terkena noda lumpur jangan panik dulu. Noda lumpur yang menempel tidak cukup jika dibersihkan dengan tisu basah.
+Tapi kalau noda lumpur yang menempel cukup banyak, sebisa mungkin jangan langsung dicuci dengan air. Lebih baik biarkan noda lumpur itu mengering terlebih dahulu. Setelah kering baru kamu bersihkan dengan cara menepuk bagian yang terkena lumpur sampai rontok atau bisa juga menggunakan sikat gigi yang sudah tidak digunakan.
+"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#000000"
+                    android:textAlignment="gravity"
+                    android:text="2.Gunakan dua jenis sabun pencuci: deterjen atau sabun cuci piring.
+Setelah kamu pastikan tak ada sisa kotoran yang menempel, kamu bisa segera mencuci sepatu kanvas dengan dua pilihan sabun pencuci. Tergantung dengan kebutuhan dan kondisi sepatu kanvasmu.
+Jika dirasa sepatu kanvas sangat kotor, kamu bisa menggunakan sabun cuci deterjen. Bilas dengan air kemudian sikat secara perlahan.
+Nah, tapi kalau sepatu kanvasmu tidak terlalu kotor, sebaiknya gunakan sabun cuci piring. Sabun cuci jenis ini dianggap lebih ringan, jadi tak akan membuat warna sepatumu luntur. Hindari juga sabun cuci yang mengandung pemutih ya!
+."/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
